@@ -32,14 +32,14 @@
   width: 100px;
   height: 405px;
   margin: auto;
-  top: 484px;
+  /* top: auto; */
   object-fit: contain;
   box-shadow: 0px 2px 4px rgba(47, 48, 53, 0.15);
   border-radius: 16px;
 }
 .form-card {
-  width: 720px;
-  height: 340px;
+  /* width: auto; */
+  /* height: auto; */
   background: linear-gradient(105.14deg, #ffffff 0.34%, #f3f4f9 48.48%), #f3f4f9;
   box-shadow: 0px 1px 1px rgba(47, 48, 53, 0.1),
     0px 2px 6px rgba(47, 48, 53, 0.1);
@@ -65,10 +65,9 @@
   border-radius: 8px;
 }
 .link-btn {
-  position: absolute;
   width: 300px;
   height: 48px;
-  top: 1145px;
+
   background: #ffd300;
   box-shadow: 0px 1px 1px rgba(47, 48, 53, 0.1),
     0px 2px 4px rgba(47, 48, 53, 0.1);
@@ -88,8 +87,8 @@
 }
 
 .high-light {
-  width: 436px;
-  height: 72px;
+  /* width: 436px; */
+  /* height: 72px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -98,8 +97,8 @@
   color: #2f3035;
 }
 .desc {
-  width: 436px;
-  height: 72px;
+  /* width: 436px; */
+  /* height: 72px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -119,7 +118,7 @@
 }
 
 .aquire-info {
-  width: 364px;
+  /* width: 364px; */
   height: 72px;
   font-family: Roboto;
   font-style: normal;
@@ -165,8 +164,8 @@
 }
 
 .final-content {
-  width: 364px;
-  height: 72px;
+  /* width: 364px; */
+  /* height: 72px; */
   left: 292px;
   top: 2632px;
   font-family: Roboto;

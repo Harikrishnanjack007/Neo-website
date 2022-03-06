@@ -9,17 +9,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="header-main ">
-      <div class="flex  justify-between">
-        <div class="my-10 text-white font-bold mx-[280px]">
+    <div class="header-main flex items-start md:items-center lg:items-center xl:items-center 2xl:items-center  flex-col">
+      <div class="flex-col md:flex-row lg:flex xl:flex 2xl:flex justify-center md:justify-between w-3/4">
+        <div class="my-10 text-white font-bold ">
           <img src="assets/images/Logo.svg" height="20px" alt="" />
         </div>
-        <div class="my-10 text-white mx-[180px]  font-normal leading-5 text-xl">
+        <div class="my-10 text-white  font-normal leading-5 text-xl">
           <a href=""><u>Get in contact</u></a
           ><span> if you have any questions</span>
         </div>
       </div>
-      <div class="flex flex-col my-10 justify-center">
+       <div class="flex flex-col my-10 justify-center w-full">
         <div class="flex justify-center my-2 text-white font-bold text-5xl">
           <h1>Capture your next leads</h1>
         </div>
@@ -38,17 +38,21 @@
             name.
           </p>
         </div>
-        <div class="flex justify-center my-2">
-          <button class="read-button text-white mx-5 text-xl hover:bg-sky-700">Read More</button>
-          <button class="request-button hover:bg-yellow-700">Request Access</button>
+        <div class="md:flex justify-start md:justify-center my-2 w-1/2 md:w-full lg:w-full xl:w-full 2xl:w-full ">
+          <div class="p-3">
+            <button class="read-button text-white text-xl hover:text-sky-700">Read More</button>
+          </div>
+          <div class="p-3">
+            <button class="request-button hover:text-white ">Request Access</button>
         </div>
+        </div>
+      </div> 
+      <div class="flex justify-center my-[150px] mb-5 w-full">
+        <img class="" src="assets/images/Video Image.png" alt="" srcset="" />
+        <img class="icon-pla absolute m-auto top-[51rem] md:top-[45rem] lg:top-[45rem] xl:top-[45rem] 2xl:top-[45rem]" src="assets/images/Icon - Play.png" alt="">
       </div>
-      <div class="flex justify-center my-[150px] mb-5">
-        <img src="assets/images/Video Image.png" alt="" srcset="" />
-        <img class="icon-play" src="assets/images/Icon - Play.png" alt="">
-      </div>
-      <div class="flex justify-center">
-        <div class="form-card flex gap-4">
+       <div class="flex">
+        <div class="form-card flex-col md:flex-row lg:flex xl:flex 2xl:flex gap-4 w-full">
           <div class="flex flex-col p-[50px]">
             <div class="font-roboto font-normal text-3xl my-2">
               <h2><b> Get a free sample!</b></h2>
@@ -66,7 +70,7 @@
               </ul>
             </div>
           </div>
-          <div class="form">
+          <div class="form p-5">
             <div class="my-6">
               <div class="flex flex-col">
                 <label for="" class="my-2">FULL NAME</label>
@@ -82,60 +86,59 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
-    <div class="flex my-40 justify-center gap-4">
-      <div class="w-50">
+    <div class="flex my-[500px] md:my-40 justify-start md:justify-center lg:justify-center xl:justify-center 2xl:justify-center gap-4">
+      <div class="">
         <h6 class="font-roboto main-feature">THE MAIN FEATURES</h6>
         <div>
-          <h2 class="high-light my-6">
+          <h2 class="high-light my-6 w-full md:w-[436px]">
             Highlight your main selling points in this section
           </h2>
         </div>
-        <p class="desc">
+        <p class="desc w-full md:w-[436px]">
           Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum
           fugit, sed quia magni dolores eos qui ratione sequi nesciunt.
         </p>
-        <div class="flex flex-col mt-10">
+         <div class="flex flex-col mt-10">
           <div class="my-4">
             <div class="flex ">
-              <span><img class="w-full h-full" src="assets/images/Icon - Mail.svg" alt=""></span>
-              <h4 class="aquire ml-8">Aquire leads with ease</h4>
+              <span><img class="w-1/2 md:w-full h-full" src="assets/images/Icon - Mail.svg" alt=""></span>
+              <h4 class="aquire ml-2 md:ml-8">Aquire leads with ease</h4>
             </div>
-            <p class="aquire-info mt-4 ml-[4.75rem]">
+            <p class="aquire-info mt-4 ml-[3.2rem] md:ml-[4.75rem] w-1/2 md:w-[364px]">
               Nemo enim ipsam voluptatem quia voluptas sit asperna netsum
               lorisum fugit, sed quia magni.
             </p>
-          </div>
+          </div> 
           <div class="my-4">
             <div class="flex ">
-              <span><img class="w-full h-full" src="assets/images/Icon - Anchor.svg" alt=""></span>
-            <h4 class="aquire ml-8">Beautiful and responsive</h4>
+              <span><img class="w-1/2 md:w-full h-full" src="assets/images/Icon - Anchor.svg" alt=""></span>
+            <h4 class="aquire mt-6 ml-2 md:ml-8">Beautiful and responsive</h4>
           </div>
-            <p class="aquire-info mt-4 ml-[4.75rem]">
+            <p class="aquire-info mt-4 ml-[3.2rem] md:ml-[4.75rem] w-1/2 md:w-[364px]">
               Nemo enim ipsam voluptatem quia voluptas sit asperna netsum
               lorisum fugit, sed quia magni.
             </p>
-          </div>
-        </div>
+          </div> 
+        </div> 
       </div>
-      <div class="w-[30%] image-chat">
+      <div class="w-0 md:w-[30%] image-chat">
         <img src="assets/images/Big Feature Image.png" alt="" />
       </div>
-    </div>
-    <div class="flex-col justify-center">
-      <div class="flex justify-center my-2">
+    </div> 
+     <div class="flex-col justify-center">
+      <div class="flex justify-center my-2 overflow-hidden">
         <img
           src="assets/images/Quote Image.png"
           alt=""
           srcset=""
-          width="64px"
-          height="64px"
+          class="w-16 h-16 "
           ;
         />
       </div>
       <div class="flex justify-center my-2">
-        <p class="font-roboto text-2xl" style="width: 30%">
+        <p class="font-roboto text-2xl" >
           “Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum.”
         </p>
       </div>
@@ -145,77 +148,79 @@
       <div class="flex justify-center my-16">
         <button class="request-button text-xl hover:bg-yellow-700">Request Access</button>
       </div>
-    </div>
-    <div class="bg-black h-[100vh]">
-    <div class="flex flex-wrap  justify-center ">
-      <div class="p-10 mt-10 w-100">
+    </div> 
+
+
+    <div class="bg-black h-[160vh] md:h-[100vh]">
+    <div class="flex flex-wrap  justify-center mt-1 md:mt-10">
+      <div class="p-0 md:p-10 mt-10 w-100">
       <div class="w-50 ">
         <div class="flex items-center">
           <span><img  src="assets/images/Icon - Award.svg" alt=""></span>
-        <h4 class="text-white final-head  ml-[2rem]">Stand out with great style</h4>
+        <h4 class="text-white final-head  ml-0 md:ml-[2rem]">Stand out with great style</h4>
       </div>
-      <p class="final-content mt-5  ml-[3.9rem]">
+      <p class="final-content mt-5  ml-0 md:ml-[3.9rem] w-[364px]">
         Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum
         fugit, sed quia magni.
       </p>
-      </div>
+      </div> 
       <div class="w-50 mt-10">
         <div class="flex items-center">
           <span><img src="assets/images/Icon - Command.svg" alt=""></span>
 
-        <h4 class="text-white final-head ml-[1rem]">Easy to customise </h4>
+        <h4 class="text-white final-head  ml-0mmd:l-[1rem] ">Easy to customise </h4>
         </div>
-        <p class="final-content mt-5  ml-[3.9rem]">
+        <p class="final-content mt-5  ml-0 md:ml-[3.9rem] w-[364px]">
           Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum
           fugit, sed quia magni.
         </p>
-      </div>
+      </div> 
     </div>
-    <div class="p-10 mt-10 w-100">
+     <div class="p-0 md:p-10 mt-10 w-100">
       <div class="w-50">
         <div class="flex items-center">
           <span><img src="assets/images/Icon - Chart.svg" alt=""></span>
-        <h4 class="text-white final-head ml-[1rem]">Convert visitors into leads</h4>
+        <h4 class="text-white final-head  ml-0mmd:l-[1rem]">Convert visitors into leads</h4>
         </div>
-        <p class="final-content mt-5  ml-[3.9rem]">
+        <p class="final-content mt-5  ml-0 md:ml-[3.9rem] w-[364px]">
           Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum
           fugit, sed quia magni.
         </p>
       </div>
-      <div class="w-50 mt-10">
+       <div class="w-50 mt-10">
         <div class="flex items-center">
           <span><img src="assets/images/Icon - Copy.svg" alt=""></span>
-        <h4 class="text-white final-head ml-[1rem]">Create and test variations</h4>
+        <h4 class="text-white final-head ml-0 md:ml-[1rem]">Create and test variations</h4>
         </div>
-        <p class="final-content mt-5  ml-[3.9rem]">
+        <p class="final-content mt-5  ml-0 md:ml-[3.9rem] w-[364px]">
           Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum
           fugit, sed quia magni.
         </p>
-      </div>
-    </div>
+      </div> 
+    </div> 
 
   </div>
-  <div class="w-full flex justify-center items-center h-1/2 ">
-    <div class="w-1/2 flex flex-col justify-center items-center ml-[4rem]">
-      <h4 class="main-feat mt-5">
+  <div class="w-full flex-col md:flex-row lg:flex xl:flex 2xl:flex justify-start md:justify-center items-center h-1/2 ">
+    <div class="w-1/2 flex flex-col justify-start md:justify-center items-center ml-0 md:ml-[4rem]">
+      <h4 class="main-feat mt-0 md:mt-5">
         THE MAIN FEATURES
       </h4>
-      <h4 class="text-white final-head w-[300px] mt-5 ml-32">
+      <h4 class="text-white final-head w-full md:w-[300px] mt-5 ml-0 md:ml-32">
         Highlight your main selling points in this section
       </h4>
     </div>
     <div class="w-1/2 mt-10 ">
-      
       <button class="read-button text-white mx-5 text-xl hover:bg-sky-700">Read More</button>
       <button class="request-button hover:bg-yellow-700">Request Access</button>
     </div>
-  </div>
-</div>
-    <div class="flex justify-between mx-[280px] mt-10" style="height: 60px">
-      <div class="capture text-3xl">
+  </div> 
+</div> 
+    <div class="flex-col md:flex-row lg:flex xl:flex 2xl:flex w-full justify-start md:justify-between p-5">
+      <div>
         <img src="assets/images/Logo (1).svg" alt="" />
+
       </div>
-      <div class="footer-contact">
+      <div>
         <a href=""><u> Get in contact</u></a>
         <span class="px-2">if you have any questions</span>
       </div>
