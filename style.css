@@ -18,7 +18,7 @@
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 48px;
-  width: 162px;
+  /* width: 162px; */
   height: 48px;
 }
 .request-button {
