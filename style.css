@@ -81,6 +81,17 @@
   color: #86899b;
 }
 
+input::-webkit-input-placeholder{
+ position: absolute;
+ left: 20px;
+ top: 15px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 20px;
+}
+
 .high-light {
   font-family: Roboto;
   font-style: normal;
